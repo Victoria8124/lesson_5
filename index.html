@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Промежуточная аттестиция
+        // Задание 1
+        // const numbers = {
+        //         keyin1: 1,
+        //         keyin2: 2,
+        //         keyin3: 3,
+        //         keyin4: 4,
+        //         keyin5: 5,
+        //         keyin6: 6,
+        //         keyin7: 7,
+        //     }
+        //     for (const key in numbers) {
+        //            if(numbers[key] >= 3) {
+        //                 console.log(numbers[key]);
+        //            }
+        //     }
+            // Задание 2
+        // const post = {
+        //         author: "John", // вывести этот текст
+        //         postId: 23,
+        //         comments: [
+        //             {
+        //                 userId: 10,
+        //                 userName: "Alex",
+        //                 text: "lorem ipsum",
+        //                 rating: {
+        //                     likes: 10,
+        //                     dislikes: 2, // вывести это число
+        //                 },
+        //             },
+        //             {
+        //                 userId: 5, // вывести это число
+        //                 userName: "Jane",
+        //                 text: "lorem ipsum 2", // вывести этот текст
+        //                 rating: {
+        //                     likes: 3,
+        //                     dislikes: 1,
+        //                 },
+        //             },
+        //         ],
+        //     };
+
+        //   console.log(post.author);
+        //   console.log(post.comments[0].rating.dislikes);
+        //   console.log(post.comments[1].userId);
+        //   console.log(post.comments[1].text);
+
+            //  Задание 3
+        // const products = [
+        //         {
+        //             id: 3,
+        //             price: 200,
+        //         },
+        //         {
+        //             id: 4,
+        //             price: 900,
+        //         },
+        //         {
+        //             id: 1,
+        //             price: 1000,
+        //         },
+        //     ];
+
+
+        //         products.forEach(product => {
+        //             product.price *= 0.85;
+        //         })
+
+        //             console.log(products);
+            //  Задание 4
+        // const products = [
+        //         {
+        //             id: 3,
+        //             price: 127,
+        //             photos: [
+        //                 "1.jpg",
+        //                 "2.jpg",
+        //             ],
+        //         },
+        //         {
+        //             id: 5,
+        //             price: 499,
+        //             photos: [],
+        //         },
+        //         {
+        //             id: 10,
+        //             price: 26,
+        //             photos: [
+        //                 "3.jpg",
+        //             ],
+        //         },
+        //         {
+        //             id: 8,
+        //             price: 78,
+        //         },
+        //     ];
+        //  const productsWithPictures = products.filter(element => element.photos && element.photos.length > 0);
+        // console.log(productsWithPictures);
+        //   const sortingOfProducts = products.sort(function (a, b) { return a.price - b.price; });
+        //     console.log(sortingOfProducts);
+            //  Задание 5
+        // const en = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+        //     const ru = ["понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"];
+        //         const obj = {};
+        //    if (en.length === ru.length) {
+        //     for (let i = 0; i < en.length; i++) {
+        //         obj[en[i]] = ru[i];
+
+        //     }
+        //    }
+        //     console.log(obj);
+
+
+
+        // Семинар 5 
+
+
+        //     const day = {
+        //         1: 'Понедельник',
+        //         2: 'Вторник',
+        //         3: 'Среда',
+        //         4: 'Четверг',
+        //         5: 'Пятница',
+        //         6: 'Суббота',
+        //         7: 'Воскресенье'
+        //     }
+        //     console.log(day[2]);
+
+        //     const user = {
+        //         name: 'Vika',
+        //         surname: 'Reshetova',
+        //         age: 23,
+        //     }
+        //     console.log(user.name + '-' + user.surname + '-' + user.age);
+        //   user.patronymic = prompt('Введите отчествол');
+        //     console.log(user);
+        //     delete user.surname
+        //     console.log(user);
+
+
+        //     const arr1 = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+        //  const arr2 = [1, 2, 3, 4, 5, 6, 7];
+        //  const obj = {};
+        //         if (arr1.length === arr2.length) {
+        //             for (let i = 0; i < arr1.length; i++) {
+        //               obj[arr1[i]] = arr2[i];        
+        //             }
+        //         }
+        //         console.log(obj);
+
+        // const obj = { x: 1, y: 2, z: 3 };
+
+
+        // for (const key in obj) {
+        //     obj[key] **= 2;
+        // }
+        // console.log(obj);
+
+        // const obj = {
+        //         key1: {
+        //             key1: 1,
+        //             key2: 2,
+        //             key3: 3,
+        //         },
+        //         key2: {
+        //             key1: 4,
+        //             key2: 5,
+        //             key3: 6,
+        //         },
+        //         key3: {
+        //             key1: 7,
+        //             key2: 8,
+        //             key3: 9,
+        //         },
+        //     }
+        //     let sum = 0;
+        // for (const key in obj) {
+        //     for (const keyIn in obj[key]) {
+        //         sum += obj[key][keyIn];
+        //     }
+        //     }
+        // console.log(sum);
+        
+    </script>
+</body>
+
+</html>
